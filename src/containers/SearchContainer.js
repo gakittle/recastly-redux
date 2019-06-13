@@ -4,7 +4,7 @@ import handleSearchChange from '../actions/search.js';
 
 const mapDispatch = dispatch => {
   return {
-    handleSearchInputChange: q => dispatch(handleSearchChange)
+    handleSearchInputChange: q => dispatch(handleSearchChange(q))
   };
 };
 
